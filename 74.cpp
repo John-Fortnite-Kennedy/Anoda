@@ -1,10 +1,9 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 int main(){
-int x;
-cin>>x;
-int n=(x-1)/20+1;
-int ch=((x-1)%20)/2;
-cout<<(x%2)*n+((x+1)%2)*ch;
-return 0;
+int k,x,y;
+cin>>k;
+x=(k-1)/20+1;
+y=((k-1)%20)/2;
+cout<<((k%2)*x)+(((k+1)%2)*y);
 }
